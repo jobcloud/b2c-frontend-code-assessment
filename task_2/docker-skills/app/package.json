@@ -1,0 +1,21 @@
+{
+  "name": "b2c-frontend-assessment",
+  "version": "1.0.0",
+  "description": "b2c frontend assessment",
+  "author": "JobCloud AG",
+  "license": "MIT",
+  "main": "app.js",
+  "keywords": [
+    "nodejs",
+    "express",
+    "jobcloud",
+    "frontend",
+    "assessment"
+  ],
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
