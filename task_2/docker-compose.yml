@@ -1,0 +1,15 @@
+version: "2"
+services:
+  node:
+    image: "node:10-alpine"
+    user: "node"
+    # ports:
+    #   - "8080:8080"
+    working_dir: /Users/arianehy/workspace/b2c-frontend-code-assessment/task_2/app
+    environment:
+      - NODE_ENV=production
+    volumes:
+      - ./:/Users/arianehy/workspace/b2c-frontend-code-assessment/task_2/app
+    expose:
+      - "8081"
+    command: "npm install; npm start"
