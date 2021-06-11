@@ -2,7 +2,7 @@
 For JobCloud, probably the most valuable interaction on our platforms is users applying for a job. For that reason, we would like you to implement a small application submit form.
 
 ## Instructions
-1. A (shell) app is provided in the project directory. `cd` into the directory on your command line and run `yarn` to install the dependencies.
+1. A react app is provided in the project directory. `cd` into the directory on your command line and run `yarn` to install the dependencies.
 2. Create a form featuring the following fields:
       - email: text field
       - message: text area (optional)
@@ -20,7 +20,7 @@ You can submit the form to an existing endpoint `api/applications` via the norma
 - the submitted data will only be persisted until you refresh the browser
 - the traffic gets intercepted and will not show in the network tab, but instead you'll see it in the console
 
-Here is the API documentation:
+Here is the API documentation of the implemented endpoint:
 ### POST
 Example Parameters:
 ````
