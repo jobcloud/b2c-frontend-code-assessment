@@ -8,7 +8,7 @@ For JobCloud, probably the most valuable interaction on our platforms is users a
   - message: text area (optional)
   - motivation: select field (optional, values: `high` or `low`)
 3. Hook the form to the REST endpoint (described [below](#REST-endpoint))
-4. Validate for required fields in the frontend and show successful submission (or failure in case of a 409, see [below](#409:-duplicate)).
+4. Validate for required fields in the frontend and show successful submission (or failure in case of a 409, see [below](#409-duplicate)).
 5. As an added bonus, make it look pretty.
 
 You can use any resource you like to complete this task, but be prepared to defend your choices.
