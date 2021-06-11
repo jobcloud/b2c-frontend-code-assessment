@@ -30,6 +30,17 @@ Example Response:
 }
 ````
 #### POST
+Example Parameters:
+````
+{
+  body: {
+    "email": "test@test.test",
+    "id": "1",
+    "message": "I would like to apply for this position",
+    "motivation": "high"
+  }
+}
+````
 ##### 201: successful
 Example Response:
 ````
