@@ -1,7 +1,7 @@
 const App = () => {
   return (
     <div>
-      <h1>Task 4</h1>
+      <h1>Task 3: Coding Exercise</h1>
     </div>
   );
 }
