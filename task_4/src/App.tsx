@@ -1,5 +1,4 @@
-
-function App() {
+const App = () => {
   return (
     <div>
       <h1>Task 4</h1>
