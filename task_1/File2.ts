@@ -1,3 +1,4 @@
+// @ts-nocheck
 function doSomething(type, name) {
   query(`/api/somesite/`, function (result, error) {
     if (!error) {
