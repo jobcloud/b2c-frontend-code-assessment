@@ -5,7 +5,7 @@ import { useSelector } from "react-redux"
 const SomeComponent: FC = () => {
   const [stuff, setStuff] = useState<string[]>([]);
   const [count, setCount] = useState(0);
-  const forceTypeA = useSelector<boolean>(state => state.stuff.forceTypeA)
+  const forceTypeA = useSelector(state => state.stuff.forceTypeA)
 
   const fetchStuff = async (): Promise<void> => {
     const response = await fetch(`https://some.fancy.api`);
