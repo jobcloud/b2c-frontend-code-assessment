@@ -1,4 +1,7 @@
 # JobCloud B2C
+
+Oh God, a test like in school! Please don't lose your courage. The tasks include topics that are important to us. Even if you don't solve everything one hundred percent, it helps us to understand what makes you tick. You would solve something differently if you had more time? Mention it. You have lost a lot of time on a certain topic. Mention it. Solving the tasks gives us a starting point to get into the technical conversation. Even if you only have answers to part of the exercises, you are still in the race!
+
 ## Frontend Code Assessment
 
 Your coding assessment consists of three parts:
