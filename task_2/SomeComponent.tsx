@@ -37,7 +37,7 @@ const SomeComponent: FC = () => {
       ) : (
         <p>...loading</p>
       )}
-      {count > 5 && (
+      {count < 5 && (
         <button
           onClick={() => {
             setCount((state) => state++);
